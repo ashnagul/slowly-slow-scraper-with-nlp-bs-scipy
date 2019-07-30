@@ -1,6 +1,5 @@
                                                                                                                                                                                                                                                                                                                                                                                                                             import nltk
 import spacy
-import tensorflow as tf
 
 def parser_spacy_texto(texto, idioma='es'):
     nlp=spacy.load(idioma)
